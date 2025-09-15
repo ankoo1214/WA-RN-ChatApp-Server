@@ -1,0 +1,15 @@
+{
+  "name": "waserver",
+  "version": "1.0.0",
+  "description": "this is the backend for the chat app.",
+  "keywords": [
+    "chatapp"
+  ],
+  "license": "ISC",
+  "author": "ankush patale",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  }
+}

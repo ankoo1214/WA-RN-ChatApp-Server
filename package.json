@@ -8,8 +8,11 @@
   "license": "ISC",
   "author": "ankush patale",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo \"No build step required for Node.js backend\" && exit 0",
     "test": "npm test"
   },
   "dependencies": {
@@ -19,5 +22,8 @@
     "mongodb": "^6.19.0",
     "mongoose": "^8.18.1",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

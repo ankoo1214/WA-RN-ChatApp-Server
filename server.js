@@ -15,7 +15,7 @@ mongoose
 
 // Routes
 app.use("/api/users", userRoutes);
-   
+//this is the testing of the merge request.
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
